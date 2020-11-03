@@ -1,0 +1,10 @@
+site_id,altitude,latitude,longitude,treatment
+site_a,402,49.909703,-95.021429,Low
+site_b,456,49.913267,-94.987348,Low
+site_c,437,49.900346,-94.820267,Low
+site_d,487,49.908709,-94.319547,Medium
+site_e,459,49.904971,-94.483031,Medium
+site_f,446,49.905873,-94.17035,Medium
+site_g,426,49.903229,-95.273824,High
+site_h,438,49.895662,-94.767816,High
+site_i,480,49.901893,-94.130647,High
