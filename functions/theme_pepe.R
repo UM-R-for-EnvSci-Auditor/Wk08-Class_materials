@@ -70,8 +70,7 @@ theme_pepe <- function(base_size = 9,
     
     legend.margin = margin(half_line,half_line, half_line, half_line),
    
-    legend.key = element_rect(fill = NA, 
-                              colour = NA),
+    legend.key = element_blank(),
     legend.key.size = unit(0.75, "lines"), 
     legend.key.height = NULL, 
     legend.key.width = NULL, 
@@ -82,9 +81,11 @@ theme_pepe <- function(base_size = 9,
     legend.title.align = NULL, 
     legend.position = "right", 
     
-    legend.direction = NULL, legend.justification = "center", 
+    legend.direction = NULL, 
+    legend.justification = "center", 
     
-    legend.box = NULL, legend.box.margin = margin(0, 0, 0, 0, "cm"),
+    legend.box = NULL, 
+    legend.box.margin = margin(0, 0, 0, 0, "cm"),
     legend.box.background = element_blank(), 
     legend.box.spacing = unit(half_line, "pt"), 
     
